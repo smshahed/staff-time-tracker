@@ -2,7 +2,7 @@
  * Created by jahangir on 9/4/14.
  */
 
-App.client = DS.Model.extend({
+App.Client = DS.Model.extend({
     name: DS.attr("string"),
     idNumber: DS.attr("string")
 });
